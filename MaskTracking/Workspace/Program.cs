@@ -1,4 +1,5 @@
-﻿using Entities.Concrete;
+﻿using Business.Concrete;
+using Entities.Concrete;
 
 //string message = "Hey";
 //double amount = 100000; //db'den gelir
@@ -18,7 +19,7 @@
 //Console.WriteLine(amount * 1.18);
 
 Citizen citizen1 = new Citizen();
-Person person1 = new Person();
+//Person person1 = new Person();
 
 SayHi("Doğa");
 SayHi("Engin");
@@ -85,6 +86,16 @@ foreach(var sehir in yeniSehirler1)
     Console.WriteLine(sehir);
 }
 
+// Project Check
+
+Person person1 = new Person();
+person1.NationalIdentity = 123;
+person1.FirstName = "DOĞA";
+person1.LastName = "TURHAN";
+person1.DateOfBirthYear = 1999;
+
+PttManager pttManager = new PttManager(new PersonManager());
+pttManager.GiveMask(person1);
 
 Console.ReadLine();
 

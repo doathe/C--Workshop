@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-//Console.WriteLine("Hello, World!");
+﻿//Console.WriteLine("Hello, World!");
 
 // Value Types
 
@@ -14,7 +12,10 @@ decimal number6 = 10.4m;            // Sonuna m/M ekliyoruz
 
 bool condition = false;
 
-char character = 'A';
+char character = 'A';               // char tek tırnak, string çift tırnak
+
+var number7 = 10;                   // Atamaya çalıştığımız değerin tipini alır.
+number7 = 'A';
 
 Console.WriteLine("Number1 is {0}", number1);
 Console.WriteLine("Number2 is {0}", number2);
@@ -23,10 +24,13 @@ Console.WriteLine("Number4 is {0}", number4);
 Console.WriteLine("Number5 is {0}", number5);
 Console.WriteLine("Number6 is {0}", number6);
 
+
 Console.WriteLine("Character is {0}", character);
 Console.WriteLine("Character is {0}", (int)character);
 
 Console.WriteLine("Condition is {0}", condition);
+
+Console.WriteLine("Number7 is {0}", number7);
 
 // enum
 Console.WriteLine(Days.Friday);

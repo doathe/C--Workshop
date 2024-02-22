@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypesAndVariables", "TypesA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals", "Conditionals\Conditionals.csproj", "{81BE0812-AAA7-4CCA-AEFC-F22798B64125}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{445F414C-0F70-4FA6-8681-436635AC8608}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{445F414C-0F70-4FA6-8681-436635AC8608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{060CD38E-A876-4DBC-B233-125D938B428F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{445F414C-0F70-4FA6-8681-436635AC8608}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{445F414C-0F70-4FA6-8681-436635AC8608}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{445F414C-0F70-4FA6-8681-436635AC8608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{060CD38E-A876-4DBC-B233-125D938B428F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{060CD38E-A876-4DBC-B233-125D938B428F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{060CD38E-A876-4DBC-B233-125D938B428F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{060CD38E-A876-4DBC-B233-125D938B428F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

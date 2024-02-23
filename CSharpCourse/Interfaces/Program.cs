@@ -1,4 +1,16 @@
 ﻿
+PersonManager personManager = new PersonManager();
+personManager.Add(new Customer { Id = 1, FirstName = "Doğa", LastName = "Turhan", Address = "İstanbul" });
+
+Student student = new Student
+{
+    Id = 1,
+    FirstName = "Derin",
+    LastName = "Demiroğ",
+    Department = "Computer Science"
+};
+
+personManager.Add(student);
 
 public interface IPerson
 {
@@ -19,4 +31,18 @@ public class Student : IPerson
     public string FirstName { get; set; }
     public string LastName { get; set; }
     public string Department { get; set; }
+}
+public class Worker : IPerson
+{
+    public int Id { get; set; }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public string Department { get; set; }
+}
+class PersonManager
+{
+    public void Add(IPerson person)
+    {
+        Console.WriteLine(person.FirstName + " " + person.LastName);
+    }
 }

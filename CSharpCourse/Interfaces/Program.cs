@@ -1,4 +1,6 @@
 ﻿
+using Interfaces;
+
 PersonManager personManager = new PersonManager();
 personManager.Add(new Customer { Id = 1, FirstName = "Doğa", LastName = "Turhan", Address = "İstanbul" });
 
@@ -12,6 +14,12 @@ Student student = new Student
 
 personManager.Add(student);
 
+IPerson person = new Customer();
+
+CustomerManager customerManager = new CustomerManager();
+customerManager.Add(new SqlServerCustomerDal());
+
+// Interfaceler instance alınamaz (newlenemez)
 public interface IPerson
 {
     public int Id { get; set; }

@@ -13,13 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{C09EC91B-F5E1-4391-84C2-DF2882B94DDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{2B1376B9-63BE-4BC2-B713-8617AF74DF50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings", "Strings\Strings.csproj", "{2B1376B9-63BE-4BC2-B713-8617AF74DF50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{62BCC8E7-AACE-4B5C-8FBA-924A31D0C9CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.csproj", "{62BCC8E7-AACE-4B5C-8FBA-924A31D0C9CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo", "RecapDemo\RecapDemo.csproj", "{BE144107-36B6-452B-878E-47983C9AA68E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecapDemo", "RecapDemo\RecapDemo.csproj", "{BE144107-36B6-452B-878E-47983C9AA68E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{65D74A3D-BCAD-4321-953A-F89866EE41E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{65D74A3D-BCAD-4321-953A-F89866EE41E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{49F94125-CC7D-479E-BD13-9E491487488F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{65D74A3D-BCAD-4321-953A-F89866EE41E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65D74A3D-BCAD-4321-953A-F89866EE41E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65D74A3D-BCAD-4321-953A-F89866EE41E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F94125-CC7D-479E-BD13-9E491487488F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F94125-CC7D-479E-BD13-9E491487488F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F94125-CC7D-479E-BD13-9E491487488F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F94125-CC7D-479E-BD13-9E491487488F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

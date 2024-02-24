@@ -40,6 +40,23 @@ public class OracleServerCustomerDal : ICustomerDal
         Console.WriteLine("Oracle updated");
     }
 }
+public class MySqlServerCustomerDal : ICustomerDal
+{
+    public void Add()
+    {
+        Console.WriteLine("MySql added");
+    }
+
+    public void Delete()
+    {
+        Console.WriteLine("MySql deleted");
+    }
+
+    public void Update()
+    {
+        Console.WriteLine("MySql updated");
+    }
+}
 
 public class CustomerManager
 {

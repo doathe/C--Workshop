@@ -19,6 +19,19 @@ IPerson person = new Customer();
 CustomerManager customerManager = new CustomerManager();
 customerManager.Add(new SqlServerCustomerDal());
 
+ICustomerDal[] customerDals = new ICustomerDal[3]
+{
+    new SqlServerCustomerDal(),
+    new OracleServerCustomerDal(),
+    new MySqlServerCustomerDal()
+};
+
+foreach (var customerDal in customerDals)
+{
+    customerDal.Add();
+}
+
+
 // Interfaceler instance alınamaz (newlenemez)
 public interface IPerson
 {
